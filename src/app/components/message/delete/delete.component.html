@@ -1,0 +1,25 @@
+<ng-container *ngIf="seeModa">
+  <div class="modal">
+    <div class="bttnClose">
+      <button (click)="toggle()">X</button>
+    </div>
+    <ng-content></ng-content>
+    <div class="titleDiv">
+      <h2>deseja?</h2>
+    </div>
+    <div class="Bttns">
+      <div class="bttn">
+        <button (click)="deleteId()">Delete</button>
+      </div>
+      <div class="bttn">
+        <button (click)="toggle()">Cancel</button>
+      </div>
+    </div>
+    <div class="msg_corret">
+      <ng-container *ngIf="submitted === true">
+      </ng-container>
+    </div>
+  </div>
+
+  <div (click)="toggle()" class="overlay"></div>
+</ng-container>

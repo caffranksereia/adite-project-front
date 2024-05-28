@@ -1,0 +1,658 @@
+.container {
+  width: 100%;
+  height:100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container_edit_information_patient {
+  width: 600px;
+  height:49px;
+  margin:32px 32px;
+}
+
+.container_edit_information_patient h3 {
+  font-size: 2.25rem;
+}
+
+.container_button_img {
+  display: flex;
+  width:200px;
+  height:49px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 75px 75px 75px 75px;
+}
+.container_img_button {
+  display: flex;
+  width: 48px;
+  height:48px;
+  background-color: #D9D9D9;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.container_button_save button {
+  background-color: #3AAF83;
+  color:#FFFFFF ;
+  font-size: 16px;
+  width: 128px;
+  height: 47px;
+  border-radius: 3px;
+  border:none
+}
+
+.container_apontamento {
+  width: 896px;
+  height: 40px;
+  margin:32px 97px;
+  border-bottom: 0.5px solid #525151;
+}
+
+.container_apontamento_text {
+  width: 124px;
+  height: 25px;
+
+}
+
+.container_apontamento_text h3 {
+  font: 18px;
+}
+
+.container_apontamento_consulta {
+  display: flex;
+  width:100%;
+  height:100px;
+  align-items: center;
+  margin-top:20px;
+
+}
+
+.container_apontamneto_ultima {
+  width: 256px;
+  height:70px;
+
+}
+.container_apontamneto_ultima_consulta {
+  width: 118px;
+  height: 22px;
+}
+
+.container_apontamneto_ultima_consulta h4{
+  font-size: 16px;
+}
+
+.container_apontamneto_ultima_consulta_data {
+  width: 265px;
+  height: 70px;
+}
+
+.container_apontamneto_ultima_consulta_data input {
+  width: 256px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  margin-top: 38px;
+
+}
+
+.container_apontamneto_proxima {
+  width: 256px;
+  height:70px;
+  margin-left: 75px;
+
+}
+
+.container_apontamneto_proxima_consulta_data {
+  width: 265px;
+  height: 70px;
+}
+
+.container_apontamneto_proxima_consulta_data input {
+  width: 256px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  margin-top: 38px;
+}
+.container_tratamento {
+  width: 896px;
+  height: 40px;
+  margin:150px 32px 32px 82px;
+  border-bottom: 0.5px solid #525151;
+}
+.container_tratamento_text {
+  width: 97px;
+  height: 25px;
+  margin-left:5px
+}
+
+.container_tratamento_text h3 {
+  font-size: 18px;
+}
+.container_tipo_tratamento {
+  width: 144px;
+  height: 22px;
+  margin-top: 40px;
+}
+
+.container_tipo_tratamento h3 {
+  font-size: 16px;
+}
+
+.container_tipo_tratamento_input {
+  margin-top: 1px;
+  width: 100%;
+  height: 50px;
+  margin:30px 0;
+}
+
+.container_tipo_tratamento_input input {
+  width: 895px;
+  height:32px ;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  margin-top: 38px;
+  position: relative;
+
+}
+.container_tipo_tratamento_input label {
+  position: relative;
+  left: 20;
+}
+
+.container_tipo_tratamento_data {
+  display: flex;
+  justify-content: space-around;
+  width: 256px;
+  height: 70px;
+  margin-top:130px
+}
+
+.container_tipo_tratamento_start_text {
+  width: 85px;
+  height: 22px;
+}
+
+.container_tipo_tratamento_start_text h4 {
+  font-size: 16px;
+}
+
+.container_tipo_tratamento_start_data {
+  width: 256px;
+  height: 32px;
+}
+
+.container_tipo_tratamento_start_data input {
+  width: 256px;
+  height: 32px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_tipo_tratamento_start_finalizado {
+  width: 256px;
+  height: 32px;
+  margin-left: 40px;
+}
+
+.container_tipo_tratamento_start_finalizado_data input {
+  width: 256px;
+  height: 32px;
+  margin-top: 20px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info {
+  width: 896px;
+  height: 40px;
+  margin:300px 32px 32px 82px;
+  border-bottom: 0.5px solid #525151;
+}
+
+.container_info_data{
+  width: 896px;
+  height: 70px;
+  margin-top: 49px;
+}
+
+.container_info_nome
+{
+  width: 44px;
+  height: 22px;
+  margin:2px 0;
+}
+
+.container_info_nome h4
+{
+ font-size: 16px;
+}
+
+.container_info_input  {
+  width: 896px;
+  height: 32px;
+}
+
+.container_info_input input {
+  width: 896px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  margin-top: 38px;
+}
+
+.container_info_data_doc {
+  display: flex;
+  margin-top: 50px;
+}
+
+.container_info_CPF {
+  width: 205px;
+  height: 70px;
+}
+
+.container_info_CPF h4 {
+  width: 31px;
+  height: 22px;
+}
+
+.container_info_CPF_data_input
+{
+  width: 205px;
+  height: 32px;
+}
+
+
+.container_info_CPF_data_input input
+{
+  width: 205px;
+  height: 32px;
+  margin-top:38px ;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info_rg {
+  width: 205px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.container_info_rg_text h4 {
+  width: 31px;
+  height: 22px;
+  margin-left: 15px;
+}
+
+.container_info_rg_data_input
+{
+  width: 205px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+
+.container_info_rg_data_input input
+{
+  width: 205px;
+  height: 32px;
+  margin-top:38px ;
+  margin-left: 2px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info_nascimento {
+  width: 205px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.container_info_nascimento_text  {
+  width: 31px;
+  height: 22px;
+  margin-left: 25px;
+}
+.container_info_nascimento_text h4 {
+  font-size: 16;
+}
+
+.container_info_nascimento_data_input
+{
+  width: 205px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+
+.container_info_nascimento_data_input input
+{
+  width: 205px;
+  height: 32px;
+  margin-top:38px ;
+  margin-left: 10px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+
+.container_info_idade {
+  width: 42px;
+  height: 22px;
+  margin-left: 10px;
+}
+
+.container_info_idade_text  {
+  width: 42px;
+  height: 22px;
+  margin-left: 25px;
+}
+
+.container_info_idade_text h4 {
+  font-size: 16px;
+}
+
+.container_info_idade_input
+{
+  width: 89px;
+  height: 32px;
+  margin-left: 10px;
+}
+
+
+.container_info_idade_input input
+{
+  width: 89px;
+  height: 32px;
+  margin-top:38px ;
+  margin-left: 15px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info_telefone {
+  width: 896px;
+  height: 70px;
+  margin-left: 90px;
+}
+
+.container_info_telefone_text {
+  width: 42px;
+  height: 22px;
+}
+
+.container_info_telefone_text h4 {
+  font-size: 16px;
+}
+
+.container_info_telefone_data_input {
+  width: 100%;
+  height: 32px;
+}
+
+.container_info_telefone_data_input input{
+  width: 100%;
+  height: 32px;
+  margin-top:38px ;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+
+
+
+.container_info_email {
+  margin-top:50px ;
+  width: 896px;
+  height: 70px;
+}
+
+.container_info_email_text {
+  width: 42px;
+  height: 22px;
+}
+
+.container_info_email_text h4 {
+  font-size: 16px;
+}
+
+.container_info_email_input {
+  width: 100%;
+  height: 32px;
+}
+
+.container_info_email_input input{
+  width: 100%;
+  height: 32px;
+  margin-top:18px ;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info_endereco{
+  width: 896px;
+  height: 40px;
+  margin:400px 32px 32px 82px;
+  border-bottom: 0.5px solid #525151;
+}
+
+.container_info_endereco_text {
+  width: 78px;
+  height: 25px;
+}
+
+.container_info_endereco_text  h4{
+  font-size: 16px;
+}
+
+
+.container_endereco_data {
+  width: 896px;
+  height: 70px;
+  margin-top: 40px;
+}
+
+.container_endereco_lagradouro {
+  width: 896px;
+  height: 70px;
+}
+
+.container_endereco_lagradouro h4{
+  font-size: 16px;
+}
+
+.container_endereco_lagradouro_data_input {
+  width: 896px;
+  height: 32px;
+}
+
+.container_endereco_lagradouro_data_input input {
+  width: 896px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+.container_details_endereco {
+  display: flex;
+  margin-top:70px;
+
+}
+.container_endereco_data_n {
+  width: 128px;
+  height: 70px;
+}
+
+.container_endereco_data_n h4 {
+  width: 19px;
+  height: 22px;
+  font-size: 16px;
+}
+
+.container_endereco_n_data_input {
+  width: 128px;
+  height: 32px;
+}
+
+.container_endereco_n_data_input  input{
+  width: 128px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_complemento {
+  width: 206px;
+  height: 70px;
+  margin-left:12px;
+
+}
+
+.container_complemento_text {
+  width: 105px;
+  height: 22px;
+}
+
+.container_complemento_text h4 {
+  font-size: 16px;
+}
+
+
+.container_complemento_data_input {
+  width: 206px;
+  height: 32px;
+}
+
+.container_complemento_data_input input[type="text"]{
+  width: 206px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
+}
+
+.container_info_cidade {
+  width: 256px;
+  height: 70px;
+  margin-left: 15px;
+}
+
+.container_info_cidade_text {
+  width: 52px;
+  height: 22px;
+}
+
+.container_info_cidade_text h4{
+  font-size: 16px;
+}
+
+.container_info_cidade_data_input {
+  width: 256px;
+  height: 32px;
+}
+
+.container_info_cidade_data_input input[type="text"]{
+  width: 256px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
+}
+
+
+.container_info_estado {
+  width: 128px;
+  height: 70px;
+  margin-left: 15px;
+
+}
+
+.container_info_estado_text{
+  width: 51px;
+  height: 22px;
+
+}
+
+.container_info_estado_text h4{
+  font-size: 16px;
+}
+
+.container_info_estado_data_input{
+
+  width:128px;
+  height:32px;
+  background-color: turquoise;
+}
+
+.container_info_estado_data_input select{
+  width:128px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+
+.container_info_cep{
+  width: 134px;
+  height: 70px;
+  margin-left:15px ;
+}
+
+.container_info_cep_text {
+  width: 31px;
+  height: 22px;
+}
+
+.container_info_cep_text h4{
+  font-size: 16px;
+}
+
+.container_info_cep_input {
+  width: 134px;
+  height: 32px;
+}
+
+.container_info_cep_input input[type="text"] {
+  width: 134px;
+  height: 32px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+  border-radius: 4px;
+}
+
+.container_info_farmacos {
+  width: 896px;
+  height: 207px;
+
+}
+
+.container_info_farmacos_text
+{
+  width: 81px;
+  height: 25px;
+}
+
+.container_info_farmacos_text h4
+{
+  font-size: 18px;
+}
+
+.container_info_farmacos_data_input
+{
+  width: 896px;
+  height: 128px;
+}
+
+.container_info_farmacos_data_input textarea
+{
+  width: 896px;
+  height: 128px;
+  border: none;
+  padding: 3px 3px 3px 3px;
+}

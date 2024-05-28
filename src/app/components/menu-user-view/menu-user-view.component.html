@@ -1,0 +1,23 @@
+<div class="container_view_list">
+  <div class="container_view_list_button">
+    <div class="container_view_button">
+        <img src="../assets/CaretCircleLeft.png">
+    </div>
+    <div class="container_carrousel" >
+      <div class="container" *ngFor="let user of users">
+        <ul>
+          <div class="container_body">
+            <h1>{{user.name.charAt(0)}}</h1>
+          </div>
+          <div class="container_body_name">
+            <p>{{user.name}}</p>
+          </div>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="container_view_button" >
+        <img src="../assets/CaretCircleRight.png">
+    </div>
+  </div>
+</div>

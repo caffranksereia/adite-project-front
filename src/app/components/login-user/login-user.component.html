@@ -1,0 +1,48 @@
+<section>
+  <div class="container">
+    <div class="container_body">
+      <div class="container-hearder-text">
+        <div class="container-text">
+          <h1>Login</h1>
+        </div>
+        <div class="container-paragraph">
+          <p>Bem vindo ao nosso sistema!</p>
+        </div>
+      </div>
+      <div class="container-login-pass">
+        <form  (ngSubmit)="auth()"  [formGroup]="formGroup" #formDir="ngForm" >
+          <div class="container-login">
+            <div class="container-login-text">
+              <h2>E-MAIL</h2>
+              <div class="container-login-input">
+                <input formControlName="username" type="email">
+              </div>
+            </div>
+
+          </div>
+          <div class="container-pass">
+            <div class="container-pass-text">
+              <h2>SENHA</h2>
+              <div class="container-pass-input">
+                <input  formControlName="password" type="password">
+                <img src="../../../assets/icon-box.png" alt="" srcset="">
+              </div>
+            </div>
+
+          </div>
+
+          <div class="container-login-btt">
+            <button type="submit">Entrar</button>
+          </div>
+        </form>
+    
+      </div>
+      <div class="container-login-politica">
+        <div class="container-login-politica-text">
+          <span>Política de uso</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

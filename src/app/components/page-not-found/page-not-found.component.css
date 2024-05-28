@@ -1,0 +1,86 @@
+section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.container {
+  width: 720px;
+  height: 641px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container_body {
+  width: 720px;
+  height: 562px;
+
+}
+
+.container-hearder-text {
+ width: 720px;
+  height: 150px;
+}
+
+.container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87px;
+  margin-top: 5px;
+
+}
+
+.container-text h1 {
+  font-size: 64px;
+}
+
+.container-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 33px;
+}
+
+.container-paragraph p {
+  font-size: 24px;
+  color: #D3D3D3;
+}
+
+.container_body_img {
+  height: 409px;
+  width: 100%;
+}
+
+.container_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_img img{
+  width: 383.44px;
+  height: 332.31px;
+
+}
+
+
+.container-login-politica {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-top: 1px;
+}
+
+.container-login-politica p {
+  width: 380px;
+  height: 33px;
+  font-size: 24px;
+  color:#D2C7C7 ;
+}
