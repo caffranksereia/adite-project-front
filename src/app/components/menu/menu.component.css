@@ -53,6 +53,19 @@
   margin-left: 12px;
   cursor:pointer;
 }
+
+
+.container_menu_getOut button{
+  width: 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  cursor:pointer;
+  border: none;
+  background-color:#3AAF83;
+}
 .container_menu_getOut img {
   width: 24px;
   height: 24px;

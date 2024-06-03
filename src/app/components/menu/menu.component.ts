@@ -10,9 +10,9 @@ import { Router } from "@angular/router";
 export class MenuComponent {
   @Input()name_user ='Fabio'
   constructor(   private router: Router){}
-    logOut(){
-      localStorage.clear()
-      this.router.navigateByUrl('');
+    printOK(){
+      console.log('ok')
+      window.alert('ok')
     }
 
 }

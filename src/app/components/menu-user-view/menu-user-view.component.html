@@ -4,7 +4,7 @@
         <img src="../assets/CaretCircleLeft.png">
     </div>
     <div class="container_carrousel" >
-      <div class="container" *ngFor="let user of users">
+      <div class="container" *ngFor="let user of users" (click)="user_id(user.id)">
         <ul>
           <div class="container_body">
             <h1>{{user.name.charAt(0)}}</h1>

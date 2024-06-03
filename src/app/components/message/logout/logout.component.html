@@ -1,20 +1,22 @@
 <ng-container *ngIf="seeModa">
   <div class="modal">
-    <div class="bttnClose">
-      <button (click)="toggle()">X</button>
+    <div class="txtMessage">
+      <h1>Ação necessária</h1>
     </div>
     <ng-content></ng-content>
     <div class="titleDiv">
-      <h2>deseja sair da sua conta?</h2>
     </div>
     <div class="Bttns">
-      <div class="bttn">
+      <div class="bttnCancelar">
+        <button (click)="toggle()">Cancelar</button>
+      </div>
+      <div class="bttnConfirmar">
         <button (click)="logOut()">Confirmar</button>
       </div>
-      <div class="bttn">
-        <button (click)="toggle()">Cancel</button>
-      </div>
+    </div>
+    <div class="msg_corret">
     </div>
   </div>
+
   <div (click)="toggle()" class="overlay"></div>
 </ng-container>

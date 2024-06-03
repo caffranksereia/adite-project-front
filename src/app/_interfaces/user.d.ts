@@ -6,10 +6,7 @@ export class IUsers {
   note: INote;
   obs: IObservation;
 }
-export interface IAuth {
-  email:string;
-  password:string
-}
+
 export interface IUser {
   name:string;
   age:string;
@@ -18,7 +15,14 @@ export interface IUser {
   rg:string;
   birth_date:string;
   password:string;
-  auth: IAuth
+  email:string;
+  token?: any;
+  id:string
+}
+
+export interface IPerfil {
+  id:string;
+  name:string;
 }
 
 export interface IAddress{
@@ -44,4 +48,24 @@ export interface INote{
 }
 export interface IObservation{
   observation:string;
+}
+
+
+export interface ICardView{
+  address  :   string
+  age : string
+  birth_date :  string
+  cell_phone: string;
+  cpf: string
+  createdAt : string
+  email : string
+  id: string
+  name : string
+  note : INote
+  obs : string
+  password: string
+  pharmaceuticals: string
+  rg: string
+  treat: string
+  updateAt:string
 }

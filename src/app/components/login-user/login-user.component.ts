@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { FormControl, FormGroup, Validators } from "@angular/forms";
 import { ActivatedRoute, Router } from "@angular/router";
-import { IAuth } from "src/app/_interfaces/user";
 import { AuthService } from "src/app/services/auth.service";
+import { IData } from "src/app/services/users/interface/user";
 
 @Component
 ({
@@ -42,21 +42,20 @@ implements OnInit {
 
 
     try {
-      const data:IAuth = {
+      const data:IData = {
         email:this.formGroup.controls['username'].value.trim(),
         password: this.formGroup.controls['password'].value.trim()
        
       }
-      console.log(data.email, data.password)
       this.loading = true;
-      this.http.auth(data).subscribe({
-        next:(res) => {
+      this.http.auth(data).subscribe((res) => {
           console.log(res);
+          res.valueOf()
           this.router.navigateByUrl('/dashboard');
           
           
         }
-      })
+      )
     } catch (error) {
       console.log(error);
       

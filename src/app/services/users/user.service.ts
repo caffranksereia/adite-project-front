@@ -3,6 +3,7 @@ import { Injectable } from "@angular/core";
 import { Observable, Subject, catchError, retry, tap, throwError } from "rxjs";
 import { IUser, IUsers } from "../_interfaces/user";
 import { IData } from "./interface/user";
+import { ICardView, IPerfil } from "src/app/_interfaces/user";
 
 @Injectable({
   providedIn: 'root'
@@ -14,18 +15,24 @@ export class UserService
   constructor(private http: HttpClient){}
 
 
-  get(id:string):Observable<IUsers>{
-    return this.http.get<IUsers>(`${this.URL}/${id}`);
+  get(id:string):Observable<ICardView>{
+    return this.http.get<ICardView>(`${this.URL}/users/${id}`);
+  }
+  getUser(id:string):Observable<IUsers>{
+    return this.http.get<IUsers>(`${this.URL}/users/${id}`);
   }
 
-  getAll():Observable<[IUser]>{
-    const allTodo = this.http.get<[IUser]>(`${this.URL}/users`)
+  getUserInfo(id:string):Observable<ICardView[]>{
+    return this.http.get<ICardView[]>(`${this.URL}/users/${id}`);
+  }
+  getAll():Observable<IPerfil[]>{
+   return this.http.get<IPerfil[]>(`${this.URL}/users`)
     .pipe(
       retry(2),
       catchError(this.handleError)
 
     );
-    return allTodo
+   
 
   }
 

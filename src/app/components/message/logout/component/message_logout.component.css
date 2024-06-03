@@ -1,0 +1,20 @@
+.body{
+  display: flex;
+  justify-content: center;
+  width: 656px;
+  height: 308px;
+  border: 2px solid #3F3F3F;
+  border-radius: 3px;
+
+}
+.titleDiv h1 {
+  width: 539px;
+  height: 33px;
+  font-size: 24px;
+  margin:3px;
+  padding: 3px;
+}
+
+.titleDiv span {
+  color: #D01111
+}

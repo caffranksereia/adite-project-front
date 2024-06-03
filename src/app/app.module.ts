@@ -16,6 +16,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalComponent } from './components/message/modal/modal.component';
 import { LogOutComponent } from './components/message/logout/logout.component';
+import { MessageLogOutComponent } from './components/message/logout/component/message_logout.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { LogOutComponent } from './components/message/logout/logout.component';
     RegisterEditViewComponent,
     LoginUserViewComponent,
     PageNotfoundComponent,
+    MessageLogOutComponent,
     PageLogin,
     PageNotFound,
     DashboardPage,

@@ -1,7 +1,37 @@
 <div>
   <menu-component/>
-  <menu-user-view/>
-  <view-user-component/>
+  <menu-user-view (envtUser_id)="getIdEvent($event)"/>
+  <!-- <view-user-component [cardView]="cardView"/> -->
+
+  <div class="container_view_users">
+    <div class="container_view">
+      <div class="container_view_image">
+        <img src="../assets/label.png">
+      </div>
+      <div class="container_view_image_user">
+      </div>
+      <div class="container_menus" (click)="update(cardView.id)">
+        <div class="container_menu_update">
+          <img src="../../../assets/Vector.png" alt="" srcset="">
+        </div>
+        <div class="container_menu_delete">
+          <img src="../../../assets/FileX.png" alt="" srcset="">
+        </div>
+      </div>
+      <div class="container_title">
+        <p>{{cardView.name}}</p>
+        <p>{{cardView.treat}}</p>
+        <p>{{cardView.note}}</p>
+        <p>{{cardView.address}}</p>
+      </div>
+      <div class="container_title">
+        <h1>{{text}}</h1>
+      </div>
+
+    </div>
+  </div>
+  
+
 
 
 </div>

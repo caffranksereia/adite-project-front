@@ -1,5 +1,5 @@
-import { Component, Input, OnInit } from "@angular/core";
-import { IUser } from "src/app/_interfaces/user";
+import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
+import { IPerfil, IUser } from "src/app/_interfaces/user";
 import { UserService } from "src/app/services/users/user.service";
 
 @Component({
@@ -16,8 +16,9 @@ export class MenuUserViewComponent implements OnInit{
   }
   name:string= '';
   fist_name:string=''
-
-  users:IUser[] = []
+  @Output() envtUser_id = new EventEmitter<string>
+  users:IPerfil[] = []
+  
 
   getAllPacients(){
 
@@ -32,4 +33,9 @@ export class MenuUserViewComponent implements OnInit{
       console.log(error)
     }
   }
+  user_id(id:string) {
+    this.envtUser_id.emit(id)
+  }
+
+
 }

@@ -16,7 +16,6 @@ export class LogOutComponent{
   
   
     logOut(){ 
-      localStorage.clear()
       this.router.navigateByUrl('');
     }
 }

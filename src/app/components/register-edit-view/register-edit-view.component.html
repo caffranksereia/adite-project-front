@@ -4,14 +4,14 @@
   </div>
   <div class="container_button_img">
     <div class="container_img_button">
-      <img src="../../../assets/Vector.png" alt="">
+      <img src="../../../assets/Vector2.png" alt="">
     </div>
     <div class="container_button_save">
-      <button>Salvar</button>
+      <button (ngClick)="save()">Salvar</button>
     </div>
   </div>
 </div>
-<div class="container_apontamento">
+<div class="container_apontamento" *ngFor="let data of users">
   <div class="container_apontamento_text">
     <h3>
       Apontamento
@@ -23,7 +23,7 @@
         <h4>Última consulta</h4>
       </div>
       <div class="container_apontamneto_ultima_consulta_data">
-        <input type="date" name="" id="">
+        <input type="date" name="" id="" >{{data.note.last_consultation}}
       </div>
     </div>
     <div class="container_apontamneto_proxima">
@@ -31,7 +31,7 @@
         <h4>Proxima consulta</h4>
       </div>
       <div class="container_apontamneto_proxima_consulta_data">
-        <input type="date" name="" id="">
+        <input type="date" name="" id="">>{{data.note.next_consultation}}
       </div>
     </div>
   </div>
@@ -90,7 +90,7 @@
       </h4>
     </div>
     <div class="container_info_input">
-      <input type="text" >
+      <input type="text" >{{data.}}
     </div>
   </div>
   <div class="container_info_data_doc">

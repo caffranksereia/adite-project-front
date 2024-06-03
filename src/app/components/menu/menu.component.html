@@ -14,12 +14,12 @@
       </div>
     </div>
   </div>
-  <div class="container_menu_getOut" >
-    <button  (click)="modal.logOut">
+  <div class="container_menu_getOut"  >
+    <button  (click)="modal.toggle()">
       <img src="../assets/exit-to-app.png" >
     </button>
   </div>
   <logout-app #modal>
-    
+      <message_logout-app/>
   </logout-app>
 </div>
